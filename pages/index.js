@@ -67,7 +67,7 @@ const Index = () => {
                     <h5 className="card-header">{beer.name}</h5>
                     <div className="card-body">
                       <h6 className="card-title">{beer.tagline}</h6>
-                      <p className="card-text"><strong>ABV:</strong>{beer.abv}%</p>
+                      <p className="card-text"><strong>ABV: </strong>{beer.abv}%</p>
                     </div>
                   </div>
                 })
