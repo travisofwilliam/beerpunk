@@ -23,8 +23,6 @@ const Index = () => {
 
         // beerList will be modified when specific ABV ranges are selected
         setBeerList(res.data)
-
-        console.log(res.data)
       })
       .catch(err => console.log(err))
   }
