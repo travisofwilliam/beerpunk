@@ -61,7 +61,7 @@ const Index = () => {
               {
                 beerList.map((beer, idx) => {
                   return <div key={idx} className="card col-sm-4 mb-3 p-3">
-                    <img style={{ width: '100%', height: '15vw', objectFit: 'contain' }} src={beer.image_url} alt="" />
+                    <img style={{ width: '100%', height: '35vw', objectFit: 'contain' }} src={beer.image_url} alt="" />
                     <h5 className="card-header">{beer.name}</h5>
                     <div className="card-body">
                       <h6 className="card-title">{beer.tagline}</h6>
